@@ -6,13 +6,10 @@
   <body>
 
     {% include header.html %}
-    
+
     <!-- Hero Section -->
-	  <div class="hero">
-	    <div class="flex hero-content center">
-	      <div></div>
-	    </div>
-	  </div>  
+	  <div class="flex center site-header" style="height: 40vh;"></div>
+	  <h1>Tim Moreton</h1>
 
   	<section>
   		{{ content }}
@@ -24,4 +21,5 @@
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="{{ "/assets/script.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/animation.js" | prepend: site.baseurl }}"></script>
 </html>
